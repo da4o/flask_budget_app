@@ -43,14 +43,14 @@
                 <div class="add__container">
                     <form action="/submit" method="post" name="select_comp">
 
-                        <div class="mobile__set">
-                            <select class="add__type {{red_focus}}" name="Operations" >
+<!--                        <div class="mobile__set">-->
+                            <select class="add__type {{red_focus}} mobile__set" name="Operations" >
                                 <option name="inc" value="inc" selected>+</option>
                                 <option name="exp" value="exp" >-</option>
                             </select>
 
-                        <input type="number" name="total_money" class="add__value" placeholder="Value" required>
-                         </div>
+                        <input type="number" name="total_money" class="add__value mobile__set" placeholder="Value" required>
+<!--                         </div>-->
                         <input type="text" name="description" class="add__description" placeholder="Add description" required>
                         <button class="add__btn add__mobile__button" type="submit"><i class="ion-ios-checkmark-outline"></i></button>
                     </form>

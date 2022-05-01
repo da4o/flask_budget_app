@@ -293,15 +293,23 @@ h2 {
 
 
     .add__type {
-        width: 50px;
+        width: 55px;
         font-size: 14px;
-        margin-left: 20px;
-
+        margin-left: 3px;
+        float: left;
+        display: inline-block;
     }
 
-    .add__value { width:155px; margin-left: 20px; }
-    .add_container {width: 90%; display: block; }
+    .add__value {
+        width:155px;
+        margin-right: 27px;
+        display: inline-block;
+        float: right;
+        }
+    .add_container {width: 80%; display: block; }
     .add__description { width: 300px; margin-right: 25px; }
+
+
     .add__btn {
         width: 150px;
         font-size: 35px;
